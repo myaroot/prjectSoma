@@ -7,9 +7,9 @@ two arrays e.g Array1:a,b,c
 
 public class AlternatingElements {
 
-	static String[] alphabates = { "a", "b", "c" };
-	static String[] numbers = {"1", "2" , "3"};
-	static final int SIZE = alphabates.length + numbers.length;
+	static String[] alphabates = { "a", "b", "c" }; //array 1
+	static String[] numbers = {"1", "2" , "3"}; //array 2
+	static final int SIZE = alphabates.length + numbers.length;//array length
 	static String[] alternating = new String[SIZE];
 	
 	public static void main(String[] args) {
@@ -19,6 +19,7 @@ public class AlternatingElements {
 			
 		
 	}
+	//methods for interchanging elements
 	public static String alternate(){
 		if ( alphabates.length == numbers.length){
 			
