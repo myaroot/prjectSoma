@@ -1,3 +1,10 @@
+/* 
+used for alternating elemnts in
+two arrays e.g Array1:a,b,c
+               Array2:1,2,3
+	       NewList:a,1,b,2,c,3
+*/
+
 public class AlternatingElements {
 
 	static String[] alphabates = { "a", "b", "c" };
